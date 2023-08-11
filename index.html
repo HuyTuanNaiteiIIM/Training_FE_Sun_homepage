@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./resources/css/index.css">
     <link rel="stylesheet" href="./base.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
     <!-- header part -->
@@ -18,7 +20,7 @@
                 <div class="homepage-inner__logo">
                     <div class="sun-logo">
                         <a href="https://sun-asterisk.vn/">
-                            <img src="https://sun-asterisk.vn/wp-content/uploads/2020/10/logo-sun@2x.png" alt="">
+                            <img src="./resources/images/logo-sun@2x.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -68,7 +70,7 @@
                     <div class="body-inner__videocontainer">
 
                         <video  autoplay muted webkit-playinsline playinsline loop  type="video/mp4">
-                            <source src="https://sun-asterisk.vn/wp-content/uploads/2020/11/mv-pc.mp4">
+                            <source src="./resources/videos/mv-pc.mp4">
                         </video>
                     </div>
                 </div>
@@ -76,7 +78,7 @@
                     <div class="body-inner__collumn">
 
                         <!-- body linh vuc kinh doanh -->
-                        <div class="content-business">
+                        <section class="content-business">
                             <div class="content-business__container">
 
                                 <h2 class="content-bussines__title title">Lĩnh vực kinh doanh</h2>
@@ -91,7 +93,7 @@
                                             tạo ra những giá trị tốt đẹp cho xã hội.
                                         </div>
                                         <div class="text-content__image">
-                                            <img src="https://sun-asterisk.vn/wp-content/uploads/2020/11/intro-business.png" alt="">
+                                            <img src="./resources/images/intro-business.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -106,33 +108,168 @@
                                                     & Engineering</div>
                                                 <div class="box-content__red__text__value">Đội ngũ nhân lực dồi dào chuyên về công nghệ, thiết kế và kinh doanh.</div>
                                             </div>
-                                            <div class="box-contenr__red__button"></div>
+                                            <!-- button of red box -->
+                                            <div class="box-content__red__button box box-red">
+                                                <div class="red-box__inner">
+                                                    <div class="red-box__inner__text">
+                                                        Tìm hiểu thêm
+                                                    </div>
+                                                    <span class="red-box__inner_icon">
+                                                        <i class="fa-solid fa-arrow-right" style="font-size: 15px;"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <!-- while box -->
+                                        <!-- white box -->
                                         <div class="box-content__white box">
-                                           <div class="box-content__white__text__title">Digital Creative Studio</div>
-                                            <div class="box-content__white__text__highlight">Talent
-                                                Platform</div>
-                                            <div class="box-content__white__text__value">Các giải pháp nguồn nhân lực hỗ trợ tăng trưởng kinh doanh bền vững.</div>
-                                        </div>
-                                        <div class="box-content__white__button"></div>
+                                            <div class="box-content_while_text">
+
+                                                <div class="box-content__white__text__title">Digital Creative Studio</div>
+                                                <div class="box-content__white__text__highlight">Talent
+                                                    Platform</div>
+                                                    <div class="box-content__white__text__value">Các giải pháp nguồn nhân lực hỗ trợ tăng trưởng kinh doanh bền vững.</div>
+                                                </div>
+                                                <!-- button of white box -->
+                                                <div class="box-content__white__button box box-white">
+                                                    <div class="white-box__inner">
+                                                        <div class="white-box__inner__text">
+                                                            Tìm hiểu thêm
+                                                        </div>
+                                                        <span class="white-box__inner_icon">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                            </section>
+                            <!-- body du an cua chung toi -->
+                            <article>
+                                <div class="content-project">
+                                    <h2 class="content-project__title title">Dự án của chúng tôi</h2>
+                                    <div class="project-text">
+                                        <div class="project-text__title">
+
+                                        </div>
+                                        <div class="project-text__top">
+                                            <div class="top__num">200</div>
+                                            <div class="top__text">
+                                                <div class="top__text__plus">++</div>
+                                                <div class="top__text__partner">Đối tác</div>
+                                            </div>
+                                        </div>
+                                        <div class="project-text__bottom">
+                                            <div class="bottom_num">300</div>
+                                            <div class="bottom__text">
+                                                <div class="bottom__text__plus">++</div>
+                                                <div class="bottom__text__partner">Dịch vụ được hỗ trợ</div>
+                                            </div>  
+                                        </div>
+                                        <div class="project-text__button box">
+                                            <div class="project-button__text">
+                                                <button>
+                                                    Xem tất cả dự án
+                                                </button></div>
+                                            <div class="project-button__icon">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project-img">
+                                        
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- body moi truong lam viec -->
+                            <div class="content-enviroment">
+                                <h2 class="content-enviroment__title title">Môi trường làm việc</h2>
+                                <div class="content-enviroment__text">
+                                    <ul class="enviroment-text__list">
+                                        <li class="enviroment-text__part">
+                                            <div class="enviroment-part__icon">
+
+                                            </div>
+                                            <div class="enviroment-part__text">
+                                                Môi trường sáng tạo - Tôn trọng sự khác biệt 
+                                            </div>
+
+                                        </li>
+                                        <li class="enviroment-text__part">
+                                            <div class="enviroment-part__icon">
+
+                                            </div>
+                                            <div class="enviroment-part__text">
+                                                Trao quyền làm chủ 
+                                            </div>
+                                        </li>
+                                        <li class="enviroment-text__part">
+                                            <div class="enviroment-part__icon">
+
+                                            </div>
+                                            <div class="enviroment-part__text">
+                                                Tập trung hỗ trợ sự phát triển cá nhân 
+                                            </div>
+                                        </li>
+                                        <li class="enviroment-text__part">
+                                            <div class="enviroment-part__icon">
+
+                                            </div>
+                                            <div class="enviroment-part__text">
+                                                Sôi nổi các phong trào học tập, giao lưu văn hóa 
+                                            </div>
+                                        </li>
+                                        <li class="enviroment-text__part">
+                                            <div class="enviroment-part__icon">
+
+                                            </div>
+                                            <div class="enviroment-part__text">
+                                                Chế độ chăm sóc đặc biệt cho phụ nữ
+                                            </div>
+                                        </li>
+                                        <li class="enviroment-text__part">
+                                            <div class="enviroment-part__icon">
+
+                                            </div>
+                                            <div class="enviroment-part__text">
+                                                Chế độ đãi ngộ chung đầy đủ, hấp dẫn    
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="content-enviroment__img">
+                                    <img src="" alt="" class="content-enviroment__img__image">
+                                    <div class="content-enviroment__img__button box">
+                                        <button>
+                                            <div class="enviroment-button__icon"></div>
+                                            <div class="envioment-button__text">Xem chi tiết</div>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- body van hoa su kien -->
+                            <div class="content-culture">
+
                             </div>
                         </div>
-                        <!-- body du an cua chung toi -->
-                        <!-- body moi truong lam viec -->
-                        <!-- body van hoa su kien -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    
     <!-- footer part -->
-        <!-- footer top -->
+    <footer>
+    <!-- footer top -->
+    <div class="footer-top">
 
-        <!-- footer bottom -->
+    </div>
+    <!-- footer bottom -->
+    <div class="footer-bottom">
+
+    </div>
+</footer>
 </body>
 </html>

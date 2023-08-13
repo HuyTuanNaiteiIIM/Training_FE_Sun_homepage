@@ -61,9 +61,9 @@ body {
     height: 100%;
 }
 .box{
-    border: 1px solid #000 !important;
-    border-radius: 4px;
-    display: flex;
+ 
+    border: none;
+    border-radius: 15px;
     flex-wrap: nowrap   ;
     justify-content: center;
     align-items: center;
@@ -72,10 +72,12 @@ body {
 .box-white{
     background-color: var(--white-color) ;
     color : var(--sun-color);
+    border-color: var(--white-color) !important;
 }
 .box-black{
     background-color: #2B3441;
     color: var(--white-color);
+    border-color: var(--sun-color) !important;
 }
 .sun-block{
     border-radius: 50%;
@@ -84,4 +86,6 @@ body {
 .title { 
     font-size: 40px;
     line-height: 1.5;
+    padding-bottom: 25px ;
+    margin : 20px 0 10px 0;
 }

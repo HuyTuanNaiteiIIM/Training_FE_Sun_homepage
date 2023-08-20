@@ -1,276 +1,595 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sun-asterisk homepage</title>
-    <link rel="stylesheet" href="./resources/css/index.css">
-    <link rel="stylesheet" href="./base.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-</head>
-<body>
-    <!-- header part -->
-<header id="homepage-header">
-    <div class="homepage-header__desktop">
-        <div class="hompage-inner">
-            <div class="row">
-                <!-- logo sun -->
-                <div class="homepage-inner__logo">
-                    <div class="sun-logo">
-                        <a href="https://sun-asterisk.vn/">
-                            <img src="./resources/images/logo-sun@2x.png" alt="">
-                        </a>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sun-asterisk homepage</title>
+        <link rel="stylesheet" href="./resources/css/index.css">
+        <link rel="stylesheet" href="./base.css">
+        <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.min.css">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="./resources/css/responsive.css">
+        <link rel="stylesheet" href="./resources/css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- header part -->
+    <header id="homepage-header">
+        <div class="homepage-header__desktop">
+            <div class="hompage-inner">
+                <div class="row">
+                    <!-- <nav> -->
+                    <!-- logo sun -->
+                    <div class="homepage-inner__logo">
+                        <div class="sun-logo">
+                            <a href="https://sun-asterisk.vn/">
+                                <img src="./resources/images/logo-sun@2x.png" alt="">
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <!-- list navigation -->
-                <div class="homepage-inner__nav">
-                    <ul class="nav-list row">
-                        <li class="nav-list__content">
-                            <a href="">Trang chủ</a>
+                    <!-- list navigation -->
+                    <div class="homepage-inner__nav">
+                        <input type="checkbox" id="menu-toggle">
+                        <span class="menu-icon">
+                            <label for="menu-toggle" class="fa-solid fa-bars " ></label>
+                        </span>
+                        <ul class="nav-list  menu">
+                            <li class="nav-list__content">
+                                <a href="">Trang chủ</a>
+                                </li>
+                            <li class="nav-list__content">
+                                <a href="">Về chúng tôi</a>
+                                </li>
+                            <li class="nav-list__content">
+                                <a href="">Dự án</a>
+                                </li>
+                            <li class="nav-list__content">
+                                <a href="">Cơ hội nghề nghiệp</a>
                             </li>
-                        <li class="nav-list__content">
-                            <a href="">Về chúng tôi</a>
-                            </li>
-                        <li class="nav-list__content">
-                            <a href="">Dự án</a>
-                            </li>
-                        <li class="nav-list__content">
-                            <a href="">Cơ hội nghề nghiệp</a>
-                          </li>
-                        <li class="nav-list__content">
-                            <a href="">Môi trường làm việc</a>
-                            </li>
-                        <li class="nav-list__content">
-                            <a href="">Tin tức</a>
-                            </li>
-                       
-                    </ul>
-                </div>
-                <!-- language  -->
-                <div class="homepage-inner__language">
-                    <ul class="language-value">
-                        <li class="language-value__name VI">VI</li>
-                        <li class="language-value__name EN">EN</li>
-                    </ul>
+                            <li class="nav-list__content">
+                                <a href="">Môi trường làm việc</a>
+                                </li>
+                            <li class="nav-list__content">
+                                <a href="">Tin tức</a>
+                                </li>
+                        
+                        </ul>
+                    </div>
+                    <!-- language  -->
+                    <div class="homepage-inner__language">
+                        <ul class="language-value">
+                            <li class="language-value__name VI">VI</li>
+                            <li class="language-value__name EN">EN</li>
+                        </ul>
+                    </div>
+                <!-- </nav> -->
                 </div>
             </div>
         </div>
-    </div>
-</header>
-    <!-- body part -->
-    <div class="homepage-body">
-        <div class="homepage-body__container">
-            <div class="body-inner">
-                <!-- body video -->
-                <div class="body-inner__video">
-                    <div class="body-inner__videocontainer">
+    </header>
+        <!-- body part -->
+        <div class="homepage-body">
+            <div class="homepage-body__container">
+                <div class="body-inner">
+                    <!-- body video -->
+                    <div class="body-inner__video">
+                        <div class="body-inner__videocontainer">
 
-                        <video  autoplay muted webkit-playinsline playinsline loop  type="video/mp4">
-                            <source src="./resources/videos/mv-pc.mp4">
-                        </video>
+                            <video  autoplay muted webkit-playinsline playinsline loop  type="video/mp4">
+                                <source src="./resources/videos/mv-pc.mp4">
+                            </video>
+                        </div>
                     </div>
-                </div>
-                <div class="body-inner__content">
-                    <div class="body-inner__collumn">
+                    <div class="body-inner__content">
+                        <div class="body-inner__collumn">
 
-                        <!-- body linh vuc kinh doanh -->
-                        <section class="content-business">
-                            <div class="content-business__container">
+                            <!-- body linh vuc kinh doanh -->
+                            <section class="content-business">
+                                <div class="content-business__container">
 
-                                <h2 class="content-bussines__title title">Lĩnh vực kinh doanh</h2>
-                                <div class="content-bussines__text">
-                                    <div class="content-container">
+                                    <h2 class="content-bussines__title title">Lĩnh vực kinh doanh</h2>
+                                    <div class="content-bussines__text">
+                                        <div class="content-container">
 
-                                        <div class="text-content">
-                                            <div class="text-content__text">
-                                            Là một Digital Creative Studio, Sun* luôn đề cao tinh thần làm 
-                                            chủ sản phẩm, tư duy sáng tạo trong mỗi dự án để mang đến những 
-                                            trải nghiệm "<strong>Awesome</strong>" nhất cho end-user. </br>
-                                            Với hai dòng dịch vụ là "<strong>Creative & Engineering</strong>" 
-                                            và "<strong>Talent Platform</strong>", Sun* đã và đang từng bước cùng công nghệ 
-                                            tạo ra những giá trị tốt đẹp cho xã hội.
-                                        </div>
-                                        <div class="text-content__image">
-                                            <img src="./resources/images/intro-business.png" alt="">
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                                <!-- box -->
-                                <div class="content-bussines__box">
-                                    <div class="box-content">
-                                        <!-- red box -->
-                                        <div class="box-content__red box">
-                                            <div class="box-content__red__text">
-                                                <div class="box-content__text__title">Digital Creative Studio</div>
-                                                <div class="box-content__red__text__highlight">Creative </br>
-                                                    & Engineering</div>
-                                                <div class="box-content__red__text__value">Đội ngũ nhân lực dồi dào chuyên về công nghệ, thiết kế và kinh doanh.</div>
+                                            <div class="text-content">
+                                                <div class="text-content__text">
+                                                Là một Digital Creative Studio, Sun* luôn đề cao tinh thần làm 
+                                                chủ sản phẩm, tư duy sáng tạo trong mỗi dự án để mang đến những 
+                                                trải nghiệm "<strong>Awesome</strong>" nhất cho end-user. </br>
+                                                Với hai dòng dịch vụ là "<strong>Creative & Engineering</strong>" 
+                                                và "<strong>Talent Platform</strong>", Sun* đã và đang từng bước cùng công nghệ 
+                                                tạo ra những giá trị tốt đẹp cho xã hội.
                                             </div>
-                                            <!-- button of red box -->
-                                            <div class="box-content__red__button box box-red">
-                                                <div class="red-box__inner">
-                                                    <div class="red-box__inner__text">
-                                                        Tìm hiểu thêm
+                                            <div class="text-content__image">
+                                                <img src="./resources/images/intro-business.png" alt="">
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <!-- box -->
+                                    <div class="content-bussines__box">
+                                        <div class="box-content">
+                                            <!-- red box -->
+                                            <div class="box-content__red box">
+                                                <div class="box-content__red__text">
+                                                    <div class="box-content__text__title">Digital Creative Studio</div>
+                                                    <div class="box-content__red__text__highlight">Creative </br>
+                                                        & Engineering</div>
+                                                    <div class="box-content__red__text__value">Đội ngũ nhân lực dồi dào chuyên về công nghệ, thiết kế và kinh doanh.</div>
+                                                
+                                                <!-- button of red box -->
+                                                <div class="box-content__red__button box box-white">
+                                                    <div class="box__inner">
+                                                        <div class="red-box__inner__text">
+                                                            Tìm hiểu thêm
+                                                        </div>
+                                                        <div class="red-box__inner_icon">
+                                                            <i class="fa-solid fa-arrow-right" ></i>
+                                                        </div>
                                                     </div>
-                                                    <span class="red-box__inner_icon">
-                                                        <i class="fa-solid fa-arrow-right" style="font-size: 15px;"></i>
-                                                    </span>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <!-- white box -->
-                                        <div class="box-content__white box">
-                                            <div class="box-content__white__text">
-
-                                                <div class="box-content__text__title">Digital Creative Studio</div>
-                                                <div class="box-content__white__text__highlight">Talent </br>
-                                                    Platform</div>
-                                                    <div class="box-content__red__text__value">Các giải pháp nguồn nhân lực hỗ trợ tăng trưởng kinh doanh bền vững.</div>
-                                                </div>
+                                            </div>
+                                            <!-- white box -->
+                                            <div class="box-content__white box">
+                                                <div class="box-content__white__text">
+                                                    <div class="box-content__text__title">Digital Creative Studio</div>
+                                                    <div class="box-content__white__text__highlight">Talent </br>
+                                                        & Platform</div>
+                                                    <div class="box-content__white__text__value">Các giải pháp nguồn nhân lực hỗ trợ  tăng trưởng kinh </br> doanh bền vững</div>
                                                 <!-- button of white box -->
-                                                <div class="box-content__white__button box box-white">
-                                                    <div class="white-box__inner">
+                                                <div class="box-content__white__button box box-black">
+                                                    <div class="box__inner">
                                                         <div class="white-box__inner__text">
                                                             Tìm hiểu thêm
                                                         </div>
-                                                        <span class="white-box__inner_icon">
+                                                        <div class="white-box__inner_icon">
                                                             <i class="fa-solid fa-arrow-right"></i>
-                                                        </span>
+                                                        </div>
                                                     </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- body du an cua chung toi -->
+                                <section>
+                                    <div class="content-project">
+                                        <div class="content-project__heading">
+
+                                            <h2 class="content-project__title title">Dự án của chúng tôi</h2>
+                                        </div>
+                                        <div class="project-text">
+                                            <div class="project-inner">
+
+                                            
+                                            <div class="project-text__top">
+                                                <div class="project__num">200</div>
+                                                <div class="project__text">
+                                                    <div class="project__text__plus">++</div>
+                                                    <div class="project__text__partner">Đối tác</div>
+                                                </div>
+                                            </div>
+                                            <div class="project-text__bottom">
+                                                <div class="project__num">300</div>
+                                                <div class="project__text">
+                                                    <div class="project__text__plus">++</div>
+                                                    <div class="project__text__partner">Dịch vụ được hỗ trợ</div>
+                                                </div>  
+                                            </div>
+                                            <div class="project-text__button box">
+                                                <div class="box-content__white__button box box-black">
+                                                    <div class="box__inner">
+                                                        <div class="white-box__inner__text">
+                                                            Xem tất cả dự án
+                                                        </div>
+                                                        <div class="white-box__inner_icon">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        
+                                        <div class="project-img">
+                                            
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="content-project__thumbnail box">
+                                        <div class="content-project__thumbnail__body">
+                                            <div class="thumbnail__company">Sun Asterisk</div>
+                                            <div class="thumbnail__title">Cơ hội nghề nghiệp</div>
+                                            <div class="thumbnail__philoshophy">Join us & MAKE AWESOME THINGS THAT MATTER.</div>
+                                            <div class="thumbnail__description">Sun* luôn tìm kiếm những con người đam mê thử thách để tạo nên những giá trị </br> "Awesome".
+                                            </br>  Cùng trở thành một phần của Sun* ngay hôm nay.</div>
+                                            <div class="thumbnail-button__container">
+                                            <div class="box-content__red__button box box-white content-button">
+                                                <div class="box__inner">
+                                                    <div class="red-box__inner__text content__inner__text">
+                                                    Gia nhập đội ngũ Sun*
+                                                    </div>
+                                                    <div class="red-box__inner_icon">
+                                                        <i class="fa-solid fa-arrow-right" ></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </section>
+                                <!-- body moi truong lam viec -->
+                                <div class="content-enviroment">
+                                    <div class="content-enviroment__body">
+                                        <div class="content-enviroment__text">
+                                        <h2 class="content-enviroment__title title">Môi trường làm việc</h2>
+                                        <ul class="enviroment-text__list">
+                                            <li class="enviroment-text__part">
+                                                <div class="enviroment-part__icon">
+                                                    <i class="fa-solid fa-check"></i>
+                                                </div>
+                                                <div class="enviroment-part__text">
+                                                    Môi trường sáng tạo - Tôn trọng sự khác biệt 
+                                                </div>
+
+                                            </li>
+                                            <li class="enviroment-text__part">
+                                                <div class="enviroment-part__icon">
+                                                    <i class="fa-solid fa-check"></i>
+                                                </div>
+                                                <div class="enviroment-part__text">
+                                                    Trao quyền làm chủ 
+                                                </div>
+                                            </li>
+                                            <li class="enviroment-text__part">
+                                                <div class="enviroment-part__icon">
+                                                    <i class="fa-solid fa-check"></i>
+                                                </div>
+                                                <div class="enviroment-part__text">
+                                                    Tập trung hỗ trợ sự phát triển cá nhân 
+                                                </div>
+                                            </li>
+                                            <li class="enviroment-text__part">
+                                                <div class="enviroment-part__icon">
+                                                    <i class="fa-solid fa-check"></i>
+                                                </div>
+                                                <div class="enviroment-part__text">
+                                                    Sôi nổi các hoạt động phong trào học tập, giao lưu </br> văn hóa 
+                                                </div>
+                                            </li>
+                                            <li class="enviroment-text__part">
+                                                <div class="enviroment-part__icon">
+                                                    <i class="fa-solid fa-check"></i>
+                                                </div>
+                                                <div class="enviroment-part__text">
+                                                    Chế độ chăm sóc đặc biệt cho phụ nữ
+                                                </div>
+                                            </li>
+                                            <li class="enviroment-text__part">
+                                                <div class="enviroment-part__icon">
+                                                    <i class="fa-solid fa-check"></i>
+                                                </div>
+                                                <div class="enviroment-part__text">
+                                                    Chế độ đãi ngộ chung đầy đủ, hấp dẫn    
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="conten-enviroment__inner">
+                                    <div class="content-enviroment__img">
+                                        <img src="./resources/images/C38A0096aaMTLV_Cover-3.jpg" alt="" class="content-enviroment__img__image">
+                                      <div class="enviroment-content__button">
+
+                                          <div class="box-content__white__button box box-black">
+                                              <div class="box__inner">
+                                                  <div class="white-box__inner__text enviroment-button__text">
+                                                      Xem chi tiết
+                                                    </div>
+                                                    <div class="white-box__inner_icon">
+                                                        <i class="fa-solid fa-arrow-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                        
+                                <!-- body van hoa su kien -->
+                                <section class="content-culture">
+                                <div class="content-culture__body">
+                                    <h2 class="culture-body__heading title">
+                                        Văn hóa - Sự kiện
+                                    </h2>
+                                    <div class="culture-body__thumbnail">
+                                        <ul class="culture-body__thumbnail__list">
+                                            <li class="culture-list__part">
+                                                <div class="culture-list__part__image">
+                                                    <img src="./resources/images/ff16d6af-c559-4121-a12c-e7ed56cda0e7.webp" alt="">
+                                                </div>
+                                                <h6 class="culture-list__part__title">
+                                                    Sun* Duo 2022: Rực rỡ và mãn nhãn!
+                                                </h6>
+                                                <div class="culture-list__part__description">
+                                                    Sau chuyến Company Trip với rất nhiều kỷ niệm đẹp, chắc hẳn đêm Gala Night cùng sự kiện đặc biệt Sun* Duo 2022 là một điểm nhấn khó quên trong lòng tất cả Sunner Hà Nội có mặt trong chương trình.
+                                                </div>
+                                                <div class="culture-list__part__button">
+                                                    <a href="" style = "text-decoration : none">
+                                                        
+                                                        <div class="box__inner culture-box">
+                                                    <div class="white-box__inner__text enviroment-button__text">
+                                                        Xem chi tiết
+                                                    </div>
+                                                    <div class="red-box__inner_icon">
+                                                        <i class="fa-solid fa-arrow-right"></i>
+                                                    </div>
+                                                </div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="culture-list__part">
+                                                <div class="culture-list__part__image">
+                                                    <img src="./resources/images/1d5c349b-6301-44c0-b403-a3a5ce3f7c39.webp" alt="">
+                                                </div>
+                                                <h6 class="culture-list__part__title">
+                                                    Ứng dụng của người Sun* - vỏn vẹn 2 ngày phát triển giúp tiết kiệm 1500 giờ làm việc mỗi tháng 
+                                                </h6>
+                                                <div class="culture-list__part__description">
+                                                    Chẳng cần dùng file theo dõi cồng kềnh như những đợt 'work from home' trước, giờ đây, công việc checkin/checkout của Sunners làm việc tại nhà hàng ngày chỉ còn là chuyện nhỏ khi đã có cô nàng "Thư Ký Kim" - công cụ chấm công tự động do chính người Sun* phát triển.
+                                                </div>
+                                                <div class="culture-list__part__button">
+                                                    <a href="" style = "text-decoration : none" >
+                                                        
+                                                        <div class="box__inner culture-box">
+                                                    <div class="white-box__inner__text enviroment-button__text">
+                                                        Xem chi tiết
+                                                    </div>
+                                                    <div class="red-box__inner_icon">
+                                                        <i class="fa-solid fa-arrow-right"></i>
+                                                    </div>
+                                                </div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="culture-list__part">
+                                                <div class="culture-list__part__image">
+                                                    <img src="./resources/images/7cc9cf53-2ee6-4559-b3a2-b6914f59e2a6.webp" alt="">
+                                                </div>
+                                                <h6 class="culture-list__part__title">
+                                                    Evering - Dự án nổi bật với chiếc nhẫn thông minh có khả năng thay thế ví tiền 
+                                                </h6>
+                                                <div class="culture-list__part__description">
+                                                    Dự án Evering (hay còn được gọi là Ring) do đội ngũ trực thuộc CEV11 nhà Sun* thực hiện, đã hoàn thành sứ mệnh của mình khi chính thức cho ra mắt sản phẩm, nhận được sự hưởng ứng tích cực của đông đảo người dùng, thu hút tới hơn 10 Công ty đổ tiền đầu tư. Sức hút của dự án này đến từ đâu, khiến cho mức giá bán ra một sản phẩm không hề rẻ? Hãy cùng Sun* News giải mã ngay nhé!
+                                                </div>
+                                                <div class="culture-list__part__button">
+                                                    <a href="" style = "text-decoration : none">
+                    
+                                                        <div class="box__inner culture-box">
+                                                    <div class="white-box__inner__text">
+                                                        Xem chi tiết
+                                                    </div>
+                                                    <div class="red-box__inner_icon">
+                                                        <i class="fa-solid fa-arrow-right"></i>
+                                                    </div>
+                                                </div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="culture-button">
+                                        <div class="box-content__white__button box box-black culture-box__black">
+                                            <div class="box__inner">
+                                                <div class="white-box__inner__text">
+                                                    Xem chi tiết
+                                                </div>
+                                                <div class="white-box__inner_icon">
+                                                    <i class="fa-solid fa-arrow-right"></i>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                             </section>
-                            <!-- body du an cua chung toi -->
-                            <article>
-                                <div class="content-project">
-                                    <h2 class="content-project__title title">Dự án của chúng tôi</h2>
-                                    <div class="project-text">
-                                        <div class="project-text__title">
-
-                                        </div>
-                                        <div class="project-text__top">
-                                            <div class="top__num">200</div>
-                                            <div class="top__text">
-                                                <div class="top__text__plus">++</div>
-                                                <div class="top__text__partner">Đối tác</div>
-                                            </div>
-                                        </div>
-                                        <div class="project-text__bottom">
-                                            <div class="bottom_num">300</div>
-                                            <div class="bottom__text">
-                                                <div class="bottom__text__plus">++</div>
-                                                <div class="bottom__text__partner">Dịch vụ được hỗ trợ</div>
-                                            </div>  
-                                        </div>
-                                        <div class="project-text__button box">
-                                            <div class="project-button__text">
-                                                <button>
-                                                    Xem tất cả dự án
-                                                </button></div>
-                                            <div class="project-button__icon">
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project-img">
-                                        
-                                    </div>
-                                </div>
-                            </article>
-                            <!-- body moi truong lam viec -->
-                            <div class="content-enviroment">
-                                <h2 class="content-enviroment__title title">Môi trường làm việc</h2>
-                                <div class="content-enviroment__text">
-                                    <ul class="enviroment-text__list">
-                                        <li class="enviroment-text__part">
-                                            <div class="enviroment-part__icon">
-
-                                            </div>
-                                            <div class="enviroment-part__text">
-                                                Môi trường sáng tạo - Tôn trọng sự khác biệt 
-                                            </div>
-
-                                        </li>
-                                        <li class="enviroment-text__part">
-                                            <div class="enviroment-part__icon">
-
-                                            </div>
-                                            <div class="enviroment-part__text">
-                                                Trao quyền làm chủ 
-                                            </div>
-                                        </li>
-                                        <li class="enviroment-text__part">
-                                            <div class="enviroment-part__icon">
-
-                                            </div>
-                                            <div class="enviroment-part__text">
-                                                Tập trung hỗ trợ sự phát triển cá nhân 
-                                            </div>
-                                        </li>
-                                        <li class="enviroment-text__part">
-                                            <div class="enviroment-part__icon">
-
-                                            </div>
-                                            <div class="enviroment-part__text">
-                                                Sôi nổi các phong trào học tập, giao lưu văn hóa 
-                                            </div>
-                                        </li>
-                                        <li class="enviroment-text__part">
-                                            <div class="enviroment-part__icon">
-
-                                            </div>
-                                            <div class="enviroment-part__text">
-                                                Chế độ chăm sóc đặc biệt cho phụ nữ
-                                            </div>
-                                        </li>
-                                        <li class="enviroment-text__part">
-                                            <div class="enviroment-part__icon">
-
-                                            </div>
-                                            <div class="enviroment-part__text">
-                                                Chế độ đãi ngộ chung đầy đủ, hấp dẫn    
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="content-enviroment__img">
-                                    <img src="" alt="" class="content-enviroment__img__image">
-                                    <div class="content-enviroment__img__button box">
-                                        <button>
-                                            <div class="enviroment-button__icon"></div>
-                                            <div class="envioment-button__text">Xem chi tiết</div>
-                                        </button>
-                                    </div>
-                                </div>
-
                             </div>
-                            <!-- body van hoa su kien -->
-                            <div class="content-culture">
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    <!-- footer part -->
-    <footer>
-    <!-- footer top -->
-    <div class="footer-top">
+        <!-- footer part -->
+        <footer>
+            <div class="body-inner__collumn">
+        <!-- footer top -->
+        <section class="footer-top">
+            <div class="footer-top__body">
+                <div class="footer-top__body__logo">
+                    <a href="">
+                        <img src="./resources/images/logo-sun@2x.png" alt="">
+                    </a>
+                </div>
+                <div class="footer-top__body__info">
+                    <div class="top-info__body">
+                        <ul class="top-info__body__list">
+                            <div class="top-info__body__list__quiz">
 
-    </div>
-    <!-- footer bottom -->
-    <div class="footer-bottom">
+                            <li class="top-info__body__list__part">
+                                <div class="top-list-part">
+                                    <h2 class="top-list-part__heading">
+                                        Chúng tôi là ai ?
+                                    </h2>
+                                    <div class="top-list-part__link">
+                                        <ul class="top-list-part__link__list">
+                                            <li class="top-link__part">Tầm nhìn, sứ mệnh</li>
+                                            <li class="top-link__part">Giá trị cốt lõi</li>
+                                            <li class="top-link__part">Ý nghĩa của tên Sun*</li>
+                                            <li class="top-link__part">Cẩm nang hành động</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="top-info__body__list__part">
+                                <div class="top-list-part">
+                                    <h2 class="top-list-part__heading">
+                                        Chúng tôi làm gì ?
+                                    </h2>
+                                    <div class="top-list-part__link">
+                                        <ul class="top-list-part__link__list">
+                                            <li class="top-link__part">Creative & Engineering</li>
+                                            <li class="top-link__part">Talent Platform</li>
+                                            <li class="top-link__part">Dự án của chúng tôi</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="top-info__body__list__part">
+                                <div class="top-list-part">
+                                    <h2 class="top-list-part__heading">
+                                        Cập nhật tin tức
+                                    </h2>
+                                    <div class="top-list-part__link">
+                                        <ul class="top-list-part__link__list">
+                                            <li class="top-link__part">Văn hóa - Sự kiện</li>
+                                            <li class="top-link__part">Tuyển dụng </li>
+                                            <li class="top-link__part">Chính sách phúc lợi</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="top-info__body__list__info">
 
+                    
+                            <li class="top-info__body__list__part">
+                                <div class="top-list-part">
+                                    <h2 class="top-list-part__heading">
+                                        Liên hệ
+                                    </h2>
+                                    <div class="top-list-part__link">
+                                        <ul class="top-list-part__link__list">
+                                            <li class="top-link__part">SĐT : 84-24-3795-5417</li>
+                                            <li class="top-link__part">Email: hr@sun-asterisk.com</li>
+                                        
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="top-info__body__list__part list-office">
+                                <div class="top-list-part">
+                                    <h2 class="top-list-part__heading">
+                                        Văn phòng
+                                    </h2>
+                                    <div class="top-list-part__link">
+                                        <ul class="top-list-part__link__list">
+                                            <li class="top-link__part">T13, Keangnam Hanoi Landmark Tower, khu E6, khu ĐTM Cầu Giấy, phường Mễ Trì, quận Nam Từ Liêm, Hà Nội</li>
+                                            <li class="top-link__part">Tầng 4, tòa FHome Building, số 16 Lý Thường Kiệt, quận Hải Châu, Tp. Đà Nẵng</li>
+                                            <li class="top-link__part">Tầng 9, L'Mak Long Tower, số 101-103 Nguyễn Cửu Vân, Phường 17, Quận Bình Thạnh, Thành phố Hồ Chí Minh.</li>
+                                            <li class="top-link__part">Văn phòng Tokyo - Văn phòng Cebu - Văn phòng Phnom Penh</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>    
+                        </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <section class="footer-devide"></section>
+        <div class="body-inner__collumn">
+        <!-- footer bottom -->
+        <section class="footer-bottom">
+    <div class="footer-bottom__body">
+        <div class="bottom-body__inner">
+            <div class="bottom-body__logo">
+                <img src="./resources/images/bear-footer.png" alt="">
+            </div>
+            <!-- company of intro -->
+            <div class="bottom-body__intro">
+                <div class="bottom-body__container">
+                    <div class="botom-body__container__inner">
+                        <div class="bottom-body__container__text">
+                            @ 2021 Sun-asterisk. All rights reserved.
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-body__container">
+                    <div class="botom-body__container__inner">
+                        <div class="bottom-body__container__text">
+                            Giấy chứng nhận ĐKDN: 0106045931 do Sở KHĐT TP Hà Nội cấp lần đầu ngày </br> 29/10/2012
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-body__container">
+                    <div class="botom-body__container__inner">
+                        <div class="bottom-body__container__text">
+                            Giấy phép hoạt động DVVL: 03/2022 do Sở LĐTBXH TP Hà Nội cấp lần đầu ngày </br> 10/01/2022
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-body__container">
+                    <div class="bottom-body__container__inner">
+                        <div class="bottom-body__container__text">
+                            Người đại diện theo pháp luật: KOBAYASHI TAIHEI - Tổng giám đốc
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-body__contact">
+                <ul class="bottom-body__contact__list">
+                    <li class="bottom-body__contact__part">
+                        <a href="">
+                            <div class="bottom-contact__img">
+                                <div class="bottom-contact__img__icon">
+
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="bottom-body__contact__part">
+                        <a href="">
+                            <div class="bottom-contact__img">
+                                <div class="bottom-contact__img__icon">
+
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="bottom-body__contact__part">
+                        <a href="">
+                            <div class="bottom-contact__img">
+                                <div class="bottom-contact__img__icon">
+
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="bottom-body__contact__part">
+                        <a href="">
+                            <div class="bottom-contact__img">
+                                <div class="bottom-contact__img__icon">
+
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-</footer>
-</body>
-</html>
+        </section>
+        </div>
+    </footer>
+
+    </body>
+    </html>

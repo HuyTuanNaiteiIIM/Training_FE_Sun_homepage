@@ -1,0 +1,120 @@
+@media screen and ( max-width : 1440px) {
+   
+}
+@media screen and (max-width : 767px) {
+    .homepage-body{
+        max-width: 750px    ;
+    }
+    .box-content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .box-content__red {
+        width: 100%;
+    }
+    .box-content__white{
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+        padding: 0;
+    }
+    .box-content__white__text {
+      /* padding: 0 ; */
+    }
+    .box-content__text__title{
+        font-weight: 800;
+        font-size: 17px;
+    }
+    .text-content {
+flex-direction: column;
+width: 100%;
+    }
+    .text-content__text{
+      width: 100%;
+    
+      padding: 0;
+    }
+    .text-content__image{
+      margin-top: 58px;
+      margin-bottom: 60px;
+    }
+    .project__num{
+font-size: 70px;
+    }
+    .project__text__plus{
+      font-size: 30px;
+    }
+    .project__text__partner{
+      font-size: 14px;
+      position: relative;
+    top: 37px;
+    left: -31px;
+    width: 150px;
+    }
+    .content-enviroment__body{
+      flex-direction: column;
+    }
+    .thumbnail-button__container .content-button{
+      width: 40% !important;
+    }
+}
+   
+  .menu:hover a {
+    opacity: 0.4;
+  }
+  
+  .menu a:hover {
+    opacity: 1;
+    color: #181414;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  #menu-toggle:checked ~ .menu {
+    transform: scale(1, 1);
+  }
+  
+  @media only screen and (max-width: 950px) {
+    .menu {
+      flex-direction: column;
+      background-color: #f1f0f5;
+      align-items: start;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+      transform: scale(1, 0);
+      transform-origin: top;
+      transition: transform 0.3s ease-in-out;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+  
+    .menu a {
+      margin-left: 12px;
+    }
+  
+    .menu li {
+      margin-bottom: 10px;
+    }
+  
+    .menu-icon {
+      display: block;
+      color: #000;
+      font-size: 28px;
+      cursor: pointer;
+      margin-top: 34px;
+    }
+   .nav-list li:first-child{
+        background-color: var(--sun-color);
+        width: 100%
+        ;
+    }
+  }
+  
